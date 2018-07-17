@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Badger Helper</title>
+
+    <script src="js/uikit.min.js"></script>
+    <script src= "js/uikit-icons.min.js"></script>
+    <link rel="stylesheet" href="css/uikit.css"/>
+    <link rel="stylesheet" href="css/uikit-rtl.css"/>
+
+    <script src="js/axios.js"></script>
+
+    <link rel="stylesheet" href="popup.css"/>
+
+  </head>
+  <body>
+    <div style="text-align: center;">
+        <h6 class="uk-heading-primary" style="color: red; margin-bottom: 1%">Badger Class Helper</h3>
+    </div>
+    <ul class="uk-child-width-expand" uk-tab style="margin-top: 0;">
+      <li class="uk-active"><a>Find</a></li>
+      <li><a>Search</a></li>
+    </ul>
+
+    <div id="find-content">
+      <div id="professor_content" style="text-align: center;">
+        <p>Click the button to find professor information contained on the page.</p>
+      </div>
+
+      <div id="prof-information"></div>
+
+      <div class="center-box">
+        <button id="checkPage" class="uk-button uk-button-default">Find Professors</button>
+      </div>
+    </div>
+
+    <script src="./popup.js"></script>
+    <script src="./request-utils.js"></script>
+  </body>
+</html>

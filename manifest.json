@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+
+  "name": "Badger Grade Helper",
+  "description": "This extension will allow you to search for a professors grade distribution without having to search for the class in a pdf.",
+  "version": "1.0",
+
+  "browser_action": {
+   "default_icon": "icon.png",
+   "default_popup": "popup.html"
+  },
+  "permissions": [
+      "tabs",
+      "activeTab",
+      "storage"
+  ],
+  "content_scripts": [{
+    "js": ["content.js"],
+    "matches": ["http://*/*", "https://*/*"]
+  }]
+  
+}

@@ -1,0 +1,32 @@
+body {
+    min-width: 350px;
+    min-height: 200px;
+}
+
+.uk-heading-primary {
+    font-size: 32px
+}
+
+/** Needed override tab border */
+.uk-tab > .uk-active > a {
+    border-color: red;
+}
+
+.uk-button-default {
+    border-color: red;
+    margin-bottom: 10px;
+}
+
+.uk-button-default:hover {
+    background-color: #f2e9e8;
+    border-color: red;
+}
+
+.uk-button-default:focus {
+    border-color: red;
+}
+
+.center-box {
+    display: flex;
+    justify-content: center;
+}

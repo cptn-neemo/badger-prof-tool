@@ -12,7 +12,7 @@ async function getProfessorInformation(name) {
 async function getProfessorID(name) {
     const config = {
         headers: {
-            'Authorization': 'Token token=1b1c72ca7fe54e0cb959f2a8b0d718f6'
+            'Authorization': 'Token token=TOKEN'
         },
         params: {
             query: name
